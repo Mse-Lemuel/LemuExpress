@@ -1,1 +1,58 @@
-<!DOCTYPE html><html><head><title>LemuExpress</title></head><body><h1>Bienvenue sur LemuExpress</h1></body></html>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LemuExpress - Livraison de colis au Cameroun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>LemuExpress</h1>
+    <nav>
+      <a href="#commander">Commander un livreur</a>
+      <a href="#devenir">Devenir livreur</a>
+      <a href="#admin">Admin</a>
+      <a href="https://wa.me/237687355927" target="_blank">Service Client</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>La livraison rapide de colis, inspirée de Yango</h2>
+    <p>Commandez un livreur moto en quelques clics, payez en ligne, suivez votre colis.</p>
+  </section>
+
+  <section id="commander">
+    <h2>Commander un livreur</h2>
+    <form>
+      <input type="text" placeholder="Adresse de retrait" required>
+      <input type="text" placeholder="Adresse de livraison" required>
+      <input type="text" placeholder="Type de colis">
+      <input type="tel" placeholder="Téléphone du client" required>
+      <button type="submit">Estimer et Commander</button>
+    </form>
+  </section>
+
+  <section id="devenir">
+    <h2>Devenir livreur</h2>
+    <form>
+      <input type="text" placeholder="Nom complet" required>
+      <input type="tel" placeholder="Téléphone" required>
+      <input type="text" placeholder="Numéro de CNI ou permis">
+      <button type="submit">S'inscrire</button>
+    </form>
+  </section>
+
+  <section id="admin">
+    <h2>Espace admin (simulation)</h2>
+    <p>Nombre de commandes : 0<br>Commission totale : 0 FCFA</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LemuExpress - Inspiré par Yango Cameroun</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
